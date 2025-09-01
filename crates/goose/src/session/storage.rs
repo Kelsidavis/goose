@@ -23,7 +23,7 @@ use std::sync::Arc;
 use utoipa::ToSchema;
 
 // Security limits
-const MAX_FILE_SIZE: u64 = 10 * 1024 * 1024; // 10MB
+const MAX_FILE_SIZE: u64 = 10_737_418_240; // 10GB
 const MAX_MESSAGE_COUNT: usize = 5000;
 const MAX_LINE_LENGTH: usize = 1024 * 1024; // 1MB per line
 
